@@ -32,16 +32,15 @@ Criei repositórios para armazenar alguns projetos, atividades e desafios propos
 - Algoritmos e Programação
 - Matemática Fundamental 
 
-# 📊 Estatísticas
+# 📊 Estatísticas 
 <p>
-     <img 
-        align="left" 
-        alt="GitHub Stats" 
-        height="200" 
-        style="padding-right: 10px;" 
-        src="https://github-readme-stats.vercel.app/api?username=ONestoGamer&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-        />
-
+        <img 
+            align="center" 
+            alt="GitHub Stats" 
+            height="350" 
+            style="padding-right: 15px;" 
+            src="https://github-readme-stats.vercel.app/api?username=ONestoGamer&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+/> 
 
 
 
