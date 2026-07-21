@@ -1,149 +1,485 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Contribuindo em um Projeto Open Source no GitHub</span>
-</h1>
+<div align="center">
 
-Repositório desenvolvido para fins didáticos, com a disponibilização de materiais de apoio para o lab **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/).
+# 🤝 Contribuição Open Source com Git e GitHub
 
-[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e) 
-[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Lab%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/lab/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e)
+Laboratório prático sobre colaboração em projetos open source, criação de branches, commits, forks e Pull Requests utilizando Git e GitHub.
 
-## Objetivo
-Aprender o básico sobre contribuição no GitHub.
+![Git](https://img.shields.io/badge/Git-Controle_de_Versão-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Colaboração-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-Documentação-000000?style=for-the-badge\&logo=markdown\&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open_Source-Contribuição-3DA639?style=for-the-badge\&logo=opensourceinitiative\&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Laboratório_concluído-success?style=for-the-badge)
 
-## Ferramentas
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
-
-## Percurso
-<table>
-  <thead>
-    <tr align="left">
-      <th>Nº</th>
-      <th>Etapas</th>
-      <th>Materiais de Apoio</th>
-    </tr>
-  </thead>
-  <tbody align="left">
-    <tr>
-      <td>01</td>
-      <td>Introdução ao Lab</td>
-      <td align="center">
-        <a href="">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Formas de Contribuir num Projeto Open Source</td>
-      <td align="center">
-        <a href="">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Desenvolvendo e Enviando uma Contribuição</td>
-      <td align="center">
-        <a href="">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Dicas e Materiais de Apoio</td>
-      <td align="center">
-        <a href="">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-  </tbody>
-  <tfoot></tfoot>
-</table>
-
----
-##  Desafio: Profile README
-
- Contribua no diretório "Community", criando um Profile README contendo informações sobre você que deseje compartilhar com a comunidade. Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que criou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da [Digital Innovation One](https://www.dio.me/). <br>
- Inspire-se consultando os exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), confira alguns utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) e use sua criatividade para criar o seu 😊💙.
-
-### Instruções (PT/BR)
-1. Faça um **Fork** deste repositório;
-2. Clone localmente: `git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git`;
-3. Adicione o remote upstream para manter seu repositório local atualizado. Por exemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Utilize o comando `git pull upstream main` para baixar e mesclar as alterações no seu repositório local com base na branch `main` deste repositório original de onde você fez o fork, ou `git fetch upstream main` para baixar sem mesclar. Veja mais em: [Primeiros Passos com Git e GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
-4. Crie/Referêncie uma nova **branch** e nomeie como `feat/community/SEU_USERNAME`: `git checkout -b feat/community/SEU_USERNAME`;
-    > Exemplo: `git checkout -b feat/community/elidianaandrade`
-5. Dentro da pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crie um arquivo em Markdown (extensão `.md`) e nomeie com o mesmo nome do seu usuário no GitHub;
-    > Exemplo: `elidianaandrade.md` <br>
-6. Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) e adicionar alguns dos utilitários presentes na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
-    > **Observação:** Use os outros exemplos como inspiração e não cópia.
-7. Adicione suas alterações a "staging area" com o comando `git add community/SEU_USERNAME.md`;
-8. Crie um commit e adicione a mensagem indicando a adição do seu perfil `git commit -m"feat: add SEU_USERNAME profile"`;
-9. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
-10. Crie um **Pull Request**.
-
-### Instructions (EN/US)
-1. **Fork** this repository;
-2. Clone locally: `git clone https://github.com/YOUR_USERNAME/dio-lab-open-source.git`;
-3. Add the upstream remote to keep your local repository updated. For instance: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Use the command `git pull upstream main` to download and merge the changes in your local repository based on the `main` branch of this original repository from which you forked, or `git fetch upstream main` to download without merging. Learn more at: [Getting Started with Git and GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
-4. Create/Reference a new **branch** and name it `feat/community/YOUR_USERNAME`: `git checkout -b feat/community/YOUR_USERNAME`;
-    > Example: `git checkout -b feat/community/elidianaandrade`
-5. Inside the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder, create a Markdown file (extension `.md`) and name it after your GitHub username;
-    > Example: `elidianaandrade.md` <br>
-6. Develop your profile: For that, you can see examples in the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder and add some of the utilities available in the [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) folder;
-    > **Note:** Use the other examples as inspiration, not as a copy.
-7. Add your changes to the "staging area" with the command `git add community/YOUR_USERNAME.md`;
-8. Create a commit and add a message indicating the addition of your profile `git commit -m"feat: add YOUR_USERNAME profile"`;
-9. Push the changes to your remote repository `git push origin feat/community/YOUR_USERNAME`;
-10. Create a **Pull Request**.
-
-### Instrucciones (ES/ES)
-1. Haz un **Fork** de este repositorio;
-2. Clona localmente: `git clone https://github.com/TU_USERNAME/dio-lab-open-source.git`;
-3. Añade el remote upstream para mantener tu repositorio local actualizado. Por ejemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Usa el comando `git pull upstream main` para descargar y fusionar los cambios en tu repositorio local basado en la rama `main` de este repositorio original del cual hiciste el fork, o `git fetch upstream main` para descargar sin fusionar. Aprende más en: [Primeros Pasos con Git y GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
-4. Crea/Referencia una nueva **branch** y nómbrala `feat/community/TU_USERNAME`: `git checkout -b feat/community/TU_USERNAME`;
-    > Ejemplo: `git checkout -b feat/community/elidianaandrade`
-5. Dentro de la carpeta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crea un archivo en Markdown (extensión `.md`) y nómbralo con el mismo nombre de tu usuario en GitHub;
-    > Ejemplo: `elidianaandrade.md` <br>
-6. Desarrolla tu perfil. Para eso, puedes ver ejemplos en la carpeta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) y añadir algunas de las utilidades presentes en la carpeta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
-    > **Nota:** Usa los otros ejemplos como inspiración y no como copia.
-7. Agrega tus cambios al "área de preparación" con el comando `git add community/TU_USERNAME.md`;
-8. Crea un commit y añade un mensaje indicando la adición de tu perfil `git commit -m"feat: add TU_USERNAME profile"`;
-9. Envía los cambios a tu repositorio remoto `git push origin feat/community/TU_USERNAME`;
-10. Crea un **Pull Request**.
-
-### Utilitários
-
-[![Badges](https://img.shields.io/badge/Badges-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
-[![Card Stats](https://img.shields.io/badge/Card%20Stats-E94D5F?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-stats.md)
-[![Badges](https://img.shields.io/badge/Card%20Streak%20States-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-streak-stats.md)
+</div>
 
 ---
 
-## Contribua
-[![Star](https://img.shields.io/github/stars/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/stargazers)
-[![Forks](https://img.shields.io/github/forks/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/forks)
-[![GitHub Issues](https://img.shields.io/github/issues/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/issues/)
+## 📌 Sobre o projeto
 
- Este é um projeto feito para a comunidade, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`utils`](https://github.com/elidianaandrade/dio-lab-open-source/tree/main/utils), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`docs`](https://github.com/elidianaandrade/dio-lab-open-source/tree/main/docs). <br>
- Além disso, você também pode contribuir:
- 
-⚠️ Resolvendo, respondendo ou indicando **issues**
+Este repositório foi utilizado em um laboratório prático sobre colaboração em projetos open source por meio do GitHub.
 
-⭐ Adicionando aos favoritos (**star**) 
+A atividade faz parte da formação da **Digital Innovation One — DIO** e tem como objetivo apresentar o fluxo básico de contribuição utilizado em projetos colaborativos.
 
-### Membros da comunidade que já contribuiram:
-<a href="https://github.com/elidianaandrade/dio-lab-open-source/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elidianaandrade/dio-lab-open-source"/>
-</a>
+Durante o laboratório, são praticadas etapas como:
 
-##
-<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+* criação de um fork;
+* clonagem de um repositório;
+* configuração de repositórios remotos;
+* criação de branches;
+* edição de arquivos Markdown;
+* preparação das alterações;
+* criação de commits;
+* envio de alterações ao GitHub;
+* abertura de Pull Requests.
+
+O repositório funciona como um ambiente educacional para compreender como diferentes desenvolvedores podem colaborar com um mesmo projeto sem alterar diretamente o repositório principal.
+
+---
+
+## 🎯 Objetivos de aprendizagem
+
+Os principais objetivos deste laboratório são:
+
+* compreender o conceito de software open source;
+* conhecer o fluxo de colaboração do GitHub;
+* aprender a criar e utilizar forks;
+* trabalhar com branches independentes;
+* compreender a diferença entre `origin` e `upstream`;
+* criar commits organizados;
+* enviar alterações para um repositório remoto;
+* abrir um Pull Request;
+* utilizar Markdown para criar documentação;
+* compreender o processo básico de revisão de contribuições.
+
+---
+
+## 🌐 O que é open source?
+
+Open source é um modelo de desenvolvimento no qual o código-fonte de um projeto fica disponível para consulta, uso, modificação e colaboração, de acordo com os termos de sua licença.
+
+Isso permite que desenvolvedores possam:
+
+* estudar como um software funciona;
+* identificar e corrigir problemas;
+* propor novas funcionalidades;
+* melhorar a documentação;
+* criar traduções;
+* testar alterações;
+* compartilhar conhecimento com a comunidade.
+
+Um projeto ser público no GitHub não significa automaticamente que qualquer uso é permitido. As permissões de uso, modificação e distribuição são determinadas pela licença adotada pelo projeto.
+
+---
+
+## 🔄 Fluxo de contribuição praticado
+
+O fluxo básico trabalhado no laboratório pode ser representado da seguinte forma:
+
+```mermaid
+flowchart LR
+    A[Repositório original] --> B[Fork]
+    B --> C[Clone local]
+    C --> D[Nova branch]
+    D --> E[Alterações]
+    E --> F[Commit]
+    F --> G[Push]
+    G --> H[Pull Request]
+    H --> I[Revisão]
+    I --> J[Merge]
+```
+
+---
+
+## 🧩 Etapas do laboratório
+
+### 1. Criação do fork
+
+O fork cria uma cópia do repositório original dentro da conta do participante.
+
+Essa cópia permite realizar alterações sem modificar diretamente o projeto principal.
+
+---
+
+### 2. Clonagem do repositório
+
+Após criar o fork, o repositório pode ser clonado para o computador:
+
+```bash
+git clone https://github.com/ONestoDev/dio-lab-open-source.git
+```
+
+Depois da clonagem:
+
+```bash
+cd dio-lab-open-source
+```
+
+---
+
+### 3. Configuração do upstream
+
+O repositório clonado normalmente possui um remote chamado `origin`, que aponta para o fork.
+
+Para acompanhar as mudanças do projeto original, pode ser adicionado outro remote chamado `upstream`:
+
+```bash
+git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git
+```
+
+Para verificar os repositórios remotos configurados:
+
+```bash
+git remote -v
+```
+
+---
+
+### 4. Atualização do fork
+
+As alterações mais recentes do projeto original podem ser obtidas com:
+
+```bash
+git fetch upstream
+```
+
+Depois, a branch local pode ser atualizada:
+
+```bash
+git checkout main
+git merge upstream/main
+```
+
+Outra possibilidade é:
+
+```bash
+git pull upstream main
+```
+
+O uso de `fetch` seguido de `merge` torna as duas etapas explícitas, enquanto `pull` realiza ambas em uma única operação.
+
+---
+
+### 5. Criação de uma branch
+
+Antes de realizar a contribuição, deve ser criada uma branch específica:
+
+```bash
+git checkout -b feat/community/ONestoDev
+```
+
+Em versões mais recentes do Git, também pode ser utilizado:
+
+```bash
+git switch -c feat/community/ONestoDev
+```
+
+A branch isola as alterações e evita que o trabalho seja realizado diretamente na `main`.
+
+---
+
+### 6. Criação ou alteração de arquivos
+
+O desafio propõe a criação de um perfil em Markdown dentro da pasta `community`.
+
+Exemplo:
+
+```text
+community/ONestoDev.md
+```
+
+Esse arquivo pode conter informações como:
+
+* apresentação pessoal;
+* tecnologias estudadas;
+* projetos;
+* links profissionais;
+* estatísticas do GitHub;
+* objetivos de carreira.
+
+---
+
+### 7. Preparação das alterações
+
+Para verificar os arquivos alterados:
+
+```bash
+git status
+```
+
+Para adicionar o arquivo à área de preparação:
+
+```bash
+git add community/ONestoDev.md
+```
+
+---
+
+### 8. Criação do commit
+
+Após preparar as alterações:
+
+```bash
+git commit -m "feat: add ONestoDev profile"
+```
+
+Uma boa mensagem de commit deve explicar de forma direta o que foi alterado.
+
+---
+
+### 9. Envio da branch
+
+A branch pode ser enviada para o fork hospedado no GitHub:
+
+```bash
+git push origin feat/community/ONestoDev
+```
+
+---
+
+### 10. Abertura do Pull Request
+
+Depois do push, é possível abrir um Pull Request comparando:
+
+```text
+Fork e branch do participante
+                ↓
+Repositório e branch principal
+```
+
+O Pull Request permite que os responsáveis pelo projeto:
+
+* visualizem as alterações;
+* comentem o código;
+* solicitem ajustes;
+* aprovem a contribuição;
+* realizem o merge.
+
+---
+
+## 🧠 Conceitos praticados
+
+### Fork
+
+Cópia de um repositório criada dentro de outra conta do GitHub.
+
+O fork mantém uma relação com o projeto original, mas é administrado separadamente.
+
+### Clone
+
+Cópia local do repositório, utilizada para editar os arquivos no computador.
+
+### Branch
+
+Linha independente de desenvolvimento.
+
+Branches permitem desenvolver alterações sem comprometer imediatamente a versão principal do projeto.
+
+### Commit
+
+Registro de uma alteração no histórico do Git.
+
+Um commit possui informações como:
+
+* autor;
+* data;
+* mensagem;
+* arquivos modificados;
+* estado do projeto naquele momento.
+
+### Pull Request
+
+Solicitação para incorporar alterações de uma branch em outra.
+
+Apesar do nome, um Pull Request não é apenas um pedido para “baixar” código. Ele funciona como um espaço de revisão, discussão e integração de mudanças.
+
+### Merge
+
+Operação que integra as alterações de uma branch em outra.
+
+### Remote
+
+Referência para um repositório hospedado remotamente.
+
+Os nomes mais comuns são:
+
+| Remote     | Finalidade                                      |
+| ---------- | ----------------------------------------------- |
+| `origin`   | Repositório do qual o projeto local foi clonado |
+| `upstream` | Repositório original associado a um fork        |
+
+---
+
+## 🛠️ Tecnologias e ferramentas
+
+| Tecnologia           | Aplicação                                |
+| -------------------- | ---------------------------------------- |
+| Git                  | Controle de versão distribuído           |
+| GitHub               | Hospedagem e colaboração em repositórios |
+| Markdown             | Criação dos perfis e documentação        |
+| Git Bash ou terminal | Execução dos comandos                    |
+| VS Code              | Edição dos arquivos                      |
+
+---
+
+## 📁 Estrutura geral do repositório
+
+```text
+dio-lab-open-source/
+│
+├── community/
+│   └── perfis dos participantes
+│
+├── docs/
+│   └── arquivos de documentação
+│
+├── utils/
+│   └── recursos para personalização dos perfis
+│
+└── README.md
+```
+
+A pasta `community` concentra os perfis criados pelos participantes, enquanto as demais pastas fornecem documentação e recursos auxiliares.
+
+---
+
+## 📝 Comandos utilizados
+
+```bash
+# Clonar o fork
+git clone https://github.com/ONestoDev/dio-lab-open-source.git
+
+# Entrar na pasta
+cd dio-lab-open-source
+
+# Adicionar o repositório original
+git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git
+
+# Atualizar as referências remotas
+git fetch upstream
+
+# Criar uma branch
+git switch -c feat/community/ONestoDev
+
+# Verificar alterações
+git status
+
+# Preparar o arquivo
+git add community/ONestoDev.md
+
+# Criar o commit
+git commit -m "feat: add ONestoDev profile"
+
+# Enviar a branch
+git push origin feat/community/ONestoDev
+```
+
+---
+
+## ✅ Boas práticas de contribuição
+
+Antes de abrir um Pull Request, é importante:
+
+* ler o `README.md`;
+* verificar se existe um arquivo `CONTRIBUTING.md`;
+* analisar as issues abertas;
+* respeitar o padrão do projeto;
+* criar uma branch específica;
+* evitar mudanças não relacionadas;
+* escrever commits claros;
+* revisar as próprias alterações;
+* descrever corretamente o Pull Request;
+* responder aos comentários da revisão.
+
+---
+
+## ⚠️ Erros comuns
+
+### Trabalhar diretamente na branch `main`
+
+Isso dificulta a separação das alterações e pode gerar conflitos.
+
+A melhor prática é criar uma branch específica para cada contribuição.
+
+### Não configurar o upstream
+
+Sem o `upstream`, o fork pode ficar desatualizado em relação ao projeto original.
+
+### Criar um Pull Request com alterações desnecessárias
+
+Arquivos temporários, configurações pessoais do editor e mudanças não relacionadas devem ser evitados.
+
+### Copiar o perfil de outro participante
+
+Outros arquivos podem ser usados como referência visual, mas o conteúdo deve representar o próprio participante.
+
+### Utilizar mensagens de commit genéricas
+
+Mensagens como `update`, `alteração` ou `arquivo novo` não explicam adequadamente o histórico.
+
+Prefira mensagens como:
+
+```text
+docs: update contributor profile
+feat: add ONestoDev profile
+fix: correct profile links
+```
+
+---
+
+## 📚 Aprendizados desenvolvidos
+
+Durante este laboratório foram praticados:
+
+* fundamentos de Git;
+* fluxo de trabalho distribuído;
+* gerenciamento de branches;
+* sincronização entre fork e projeto original;
+* resolução básica de diferenças entre repositórios;
+* criação de commits;
+* envio de alterações;
+* construção de documentação com Markdown;
+* abertura de Pull Requests;
+* colaboração em comunidades técnicas;
+* boas práticas de contribuição.
+
+---
+
+## 🗺️ Possíveis evoluções
+
+Como continuidade dos estudos, este laboratório pode ser complementado com:
+
+* contribuições em projetos reais;
+* abertura e resolução de issues;
+* revisão de Pull Requests;
+* resolução de conflitos de merge;
+* uso de `git rebase`;
+* assinatura de commits;
+* criação de templates para issues;
+* criação de templates para Pull Requests;
+* estudo de licenças open source;
+* uso de GitHub Actions;
+* participação em projetos da comunidade.
+
+---
+
+## 🎓 Contexto educacional
+
+Projeto desenvolvido durante o laboratório **Contribuindo em um Projeto Open Source no GitHub**, oferecido pela **Digital Innovation One — DIO**.
+
+O repositório foi mantido como registro do aprendizado sobre Git, GitHub, Markdown e colaboração em projetos open source.
+
+---
+
+## 👨‍💻 Autor
+
+Laboratório realizado por **Ernesto — ONestoDev**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-ONestoDev-181717?style=for-the-badge\&logo=github)](https://github.com/ONestoDev)
+
+---
+
+## 📄 Créditos e licença
+
+O laboratório original e os materiais de apoio foram desenvolvidos pela **Digital Innovation One — DIO**.
+
+Este fork possui finalidade educacional. As condições de uso e distribuição devem seguir a licença adotada pelo repositório original.
